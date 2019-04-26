@@ -1,0 +1,676 @@
+/* CSS Document */
+
+/*
+	Theme Name: Planetjay 2019
+	Description: WP Theme Planetjay 2019 is 2 columns with right sidebar and widget ready. Based on Blue Power 1.0. Designed by <a href="https://planetjay.com">Jay Wilkinson</a>. 
+	Version: 1.0
+	Author: Jay Wilkinson
+	Author URI: https://planetjay.com
+
+	Released under <a href="https://creativecommons.org/licenses/by-sa/3.0/">Creative Commons License</a>
+	Rilasciato sotto <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.it">Licenza Creative Commons</a>
+
+*/
+
+body {
+	font-size: 13px;
+	font-family: "Trebuchet Ms", "Lucida Grande", sans-serif;
+	color: #a6b9cb;
+	background: #000 url(images/bg.png) repeat-y center;
+	margin: 0 0 20px 0;
+	padding: 0;
+	}
+
+#wrapper {
+	width: 800px;
+	overflow: hidden;
+	position:relative;
+	margin: 0px auto;
+    	background: #000;
+	}
+
+#page {
+	text-align: left;
+	background-color: #000;
+	margin: 20px auto;
+	padding: 0;
+	width: 800px;
+	}
+
+#header {
+	background: #000 url('images/techno.jpg') no-repeat bottom center;
+	margin: 0 0 0 0px;
+	padding: 0;
+	height: 198px;
+	width: 800px;
+	}
+
+#headerimg 	{
+	height: 198px;
+	width: 800px;
+	font-size: 1.2em;
+	}
+
+#headerimg h1 	{
+	float: left;
+	padding: 75px;
+	padding-left: 50px;
+	}
+
+#content {
+	width: 550px;
+	float: left;
+	display:inline;
+	text-align: justify;
+	padding: 10px;
+	margin: 8px;
+	}
+#menubar a, a:visited {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 1.2em;
+	color: #a6b9cb;
+	margin: 5px 0 0;
+	padding-left: 50px;
+	height: 20px;
+	}
+#menubar a:hover {
+	color: #0099ff;
+	}
+.widecolumn .entry p {
+	font-size: 1.05em;
+	}
+
+.narrowcolumn .entry, .widecolumn .entry {
+	line-height: 1.4em;
+	}
+
+.widecolumn {
+	line-height: 1.6em;
+	}
+
+.narrowcolumn .postmetadata {
+	text-align: center;
+	}
+
+.alt {
+	background-color: #3c3c3c;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin: 0;
+	padding: 10px;
+	}
+
+#footer {
+	background: #000;
+	padding: 0;
+	margin: 0 auto;
+	clear: both;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #5de8ff;
+	width: 95%;
+	}
+
+small {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 0.9em;
+	line-height: 1.5em;
+	}
+
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-weight: bold;
+	}
+
+h1 {
+	padding-top: 70px;
+	margin: 0;
+	}
+
+h2 {
+	font-size: 1.4em;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	}
+
+h2.pagetitle {
+	font-size: 1.4em;
+	margin-top: 30px;
+	text-align: center;
+	}
+
+h3 {
+	font-size: 1.3em;
+	padding: 0;
+	margin: 30px 0 0;
+	}
+
+h4 {
+	color: #5de8ff;
+	}
+
+h1, h1 a, h1 a:visited, #headerimg {
+	text-decoration: none;
+	color: #ffffff;
+	}
+
+h1 a:hover {
+	text-decoration: underline;
+	color: #0099ff;
+	}
+
+h2, h2 a, h2 a:visited, h3, h3 a, h3 a:visited {
+	color: #0099ff;
+	}
+
+h2, h2 a, h2 a:hover, h2 a:visited, h3, h3 a, h3 a:hover, h3 a:visited, #sidebar h2, #wp-calendar caption, cite {
+	text-decoration: none;
+	}
+
+h2 a:hover {
+	text-decoration: underline;
+	color: #0099ff;
+	}
+
+.entry p a:visited {
+	color: #0099ff;
+	}
+
+.commentlist li, #commentform input, #commentform textarea {
+	font: 0.9em 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentlist li {
+	font-weight: bold;
+	}
+
+.commentlist cite, .commentlist cite a {
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.1em;
+	}
+
+.commentlist p {
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	}
+
+#commentform p {
+	font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	}
+
+.commentmetadata {
+	font-weight: normal;
+	}
+
+small, #sidebar ul ul li, #sidebar ul ol li, .nocomments, .postmetadata, blockquote, strike {
+	color: #a6b9cb;
+	}
+
+code {
+	font: 1.1em Courier, 'Courier New', Fixed;
+	}
+
+acronym, abbr, span.caps
+{
+	font-size: 0.9em;
+	letter-spacing: .07em;
+	}
+
+a, a:visited {
+	color:#0099ff;
+	text-decoration:none;
+	}
+
+a:hover {
+	text-decoration:underline;
+	}
+
+#wp-calendar #prev a, #wp-calendar #next a {
+	font-size: 9pt;
+	}
+
+#wp-calendar a {
+	text-decoration: none;
+	}
+
+#wp-calendar caption {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	text-align: center;
+	color: #0099ff;
+	}
+
+#wp-calendar th {
+	font-style: normal;
+	text-transform: capitalize;
+	}
+
+.title {
+	padding-bottom: 1px;
+	}
+
+.cat {
+	border-top:solid 1px #5de8ff;
+	height: 35px;
+	margin-top: 0;
+	padding-top:4px;
+	margin-bottom: 8px;
+	font: 11px Arial, Helvetica, Geneva, sans-serif;
+}
+
+.narrowcolumn {
+	float: left;
+	padding: 0 0 20px 45px;
+	margin: 0px 0 0;
+	width: 450px;
+	}
+
+.widecolumn {
+	padding: 10px 0 20px 0;
+	margin: 5px 0 0 150px;
+	width: 450px;
+	}
+
+.post {
+	text-align: justify;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 80px;
+	margin-left: 0;
+	}
+
+.post hr {
+	display: block;
+	}
+
+.widecolumn .post {
+	margin: 0;
+	}
+
+.narrowcolumn .postmetadata {
+	padding-top: 5px;
+	}
+
+.widecolumn .postmetadata {
+	margin: 30px 0;
+	}
+
+.widecolumn .smallattachment {
+	text-align: center;
+	float: left;
+	width: 128px;
+	margin: 5px 5px 5px 0px;
+}
+
+.widecolumn .attachment {
+	text-align: center;
+	margin: 5px 0px;
+}
+
+.postmetadata {
+	clear: left;
+	float:left;
+	padding-left: 20px;
+	font-size: 12px;
+}
+
+#footer p {
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	}
+
+#sidebar h2 {
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, Sans-Serif;
+	font-size: 1.2em;
+	color: #0099ff;
+	margin: 5px 0 0;
+	padding: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5de8ff;
+	height: 20px;
+	}
+
+h3.comments {
+	padding: 0;
+	margin: 40px auto 20px ;
+	}
+
+.post h3 {
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #a6b9cb;
+	height: 25px;
+	}
+
+p img {
+	padding: 0;
+	max-width: 100%;
+	}
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+img.alignright {
+	padding: 4px;
+	margin: 0 0 2px 7px;
+	display: inline;
+	}
+
+img.alignleft {
+	padding: 4px;
+	margin: 0 7px 2px 0;
+	display: inline;
+	}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+
+.post .date {
+	height: 49px;
+	width: 48px;
+	background: url(images/date.gif) no-repeat;
+	font: normal 22px Verdana, Arial, Helvetica, sans-serif;
+	color: #0099ff;
+	text-align: center;
+	padding: 0px 2px 0 0;
+	line-height: 100%;
+	float: left;
+}
+.post .date span {
+	height: 16px;
+	display: block;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 5px;
+}
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry li {
+	margin: 7px 0 8px 10px;
+	}
+
+#sidebar ul ul li:before {
+	content: "\00B7 \0020";
+	}
+
+.entry ol {
+	padding: 0 0 0 35px;
+	margin: 0;
+	}
+
+.entry ol li {
+	margin: 0;
+	padding: 0;
+	}
+
+.postmetadata ul, .postmetadata li {
+	display: inline;
+	list-style-type: none;
+	list-style-image: none;
+	}
+
+#sidebar ul, #sidebar ul ol {
+	margin: 0;
+	padding: 0;
+	}
+
+#sidebar ul li {
+	list-style-type: none;
+	list-style-image: none;
+	margin-bottom: 15px;
+	}
+
+#sidebar ul p, #sidebar ul select {
+	margin: 5px 0 8px;
+	}
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 0 0 10px;
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 0 0 10px;
+	}
+
+ol li, #sidebar ul ol li {
+	list-style: decimal outside;
+	}
+
+#sidebar ul ul li, #sidebar ul ol li {
+	margin: 3px 0 0;
+	padding: 0;
+	}
+
+#searchform {
+	margin: 10px auto;
+	text-align: center;
+	}
+
+ #searchform input {
+   border: 1px solid #5de8ff;
+   background-color: #3c3c3c;
+   color: #a6b9cb;
+ 	}
+
+#sidebar #searchform #s {
+	width: 100px;
+	padding: 2px;
+	}
+
+#sidebar #searchsubmit {
+	padding: 1px;
+	}
+
+.entry form { /* This is mainly for password protected posts, makes them look better. */
+	text-align:center;
+	}
+
+select {
+	width: 130px;
+	}
+
+#commentform input {
+	width: 170px;
+	padding: 2px;
+	margin: 5px 5px 1px 0;
+	}
+
+#commentform textarea {
+	width: 100%;
+	padding: 2px;
+	}
+
+#commentform #submit {
+	margin: 0;
+	float: left;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	}
+
+#sidebar {
+	margin: 41px 8px 8px 0px;
+	padding: 10px;
+	width: 170px;
+	float: right;
+	font-size: 12px;
+	display: inline;
+	font-family: "Trebuchet Ms", "Lucida Grande", sans-serif;
+	}
+
+#sidebar form {
+	margin: 0;
+	}
+
+#wp-calendar {
+	empty-cells: show;
+	margin: 10px auto 0;
+	width: 155px;
+	}
+
+#wp-calendar #next a {
+	padding-right: 10px;
+	text-align: right;
+	}
+
+#wp-calendar #prev a {
+	padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar a {
+	display: block;
+	}
+
+#wp-calendar caption {
+	text-align: center;
+	width: 100%;
+	}
+
+#wp-calendar td {
+	padding: 3px 0;
+	text-align: center;
+	font-size: 11px;
+	}
+
+#wp-calendar td.pad:hover { /* Doesn't work in IE */
+	background-color: #000; }
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	border-bottom: 1px dashed #999;
+	}
+
+blockquote {
+	margin: 15px 30px 0 10px;
+	padding-left: 20px;
+	border-left: 5px solid #ddd;
+	}
+
+blockquote cite {
+	margin: 5px 0 0;
+	display: block;
+	}
+
+.center {
+	text-align: center;
+	}
+
+hr {
+	display: none;
+	}
+
+a img {
+	border: 0px;
+	}
+
+.navigation {
+	display: block;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 60px;
+	}
+
+#rss{
+	background: url('images/rss.gif') no-repeat;
+	display: block;
+	height: 64px;
+	width:64px;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+#rss a {
+	width: 48px;
+	height: 80px;
+	text-decoration: none;
+	display: block;
+
+}
+
+.side {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5de8ff;
+	height: 20px;
+}
+
+.linkcat h2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #5de8ff;
+	height: 20px;
+}
+
+.pagetitle {
+	color: #a6b9cb;
+}
+
+.error {
+	background: url('images/error.png') no-repeat;
+	float: left;
+	width: 110px;
+	height: 110px;
+	}
+
+a:active {
+	text-decoration:none;
+}
